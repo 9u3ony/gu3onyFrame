@@ -1,0 +1,10 @@
+framework module FastcampusFrame2 {
+  umbrella header "FastcampusFrame2.h"
+
+  export *
+  module * { export * }
+}
+
+module FastcampusFrame2.Swift {
+    header "FastcampusFrame2-Swift.h"
+}
