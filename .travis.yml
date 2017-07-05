@@ -1,3 +1,7 @@
+osx_image: xcode8.3
+language: objective-c
+sudo: required
+
 script:
   - xcodebuild clean build test
     -project "FastcampusFrame2.xcodeproj"
